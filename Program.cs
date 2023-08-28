@@ -184,39 +184,6 @@ namespace Assignment2
 
 
 
-// 5. Define a partial class Person with one part containing properties like FirstName and LastName, and another part with methods like PrintFullName to display the full name. Implement these parts in separate files
-
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Assignment2
-{
-    public partial class Person
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public void PrintFullName()
-        {
-            Console.WriteLine($"{FirstName} {LastName}");
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Person person = new Person();
-            person.FirstName = "Satyam Narayan";
-            person.LastName = "Dubey";
-            person.PrintFullName();
-            Console.ReadLine();
-        }
-    }
-}
-
 
 
 // 6.Create a partial class Employee with properties representing employee details. In another part, implement methods for calculating salary based on different factors
